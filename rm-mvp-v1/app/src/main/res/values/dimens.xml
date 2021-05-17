@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fab_margin">32dp</dimen>
+    <dimen name="resource_checkbox_margin" />
+    <dimen name="textsize_primary">18sp</dimen>
+    <dimen name="padding">8dp</dimen>
+    <dimen name="textsize_secondary">14sp</dimen>
+    <dimen name="margin_bottom_bar">80dp</dimen>
+    <dimen name="img_size">32dp</dimen>
+    <dimen name="progress_bar_size">24dp</dimen>
+    <dimen name="trophy_icon_size">32dp</dimen>
+    <dimen name="bottom_bar">56dp</dimen>
+    <dimen name="margin_search">58dp</dimen>
+    <dimen name="margin_iv_resource">5dp</dimen>
+    <dimen name="textsize_title">20sp</dimen>
+</resources>

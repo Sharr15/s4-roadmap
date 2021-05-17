@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_bar_navigation"
+    app:startDestination="@id/homeFragment">
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="nl.daanb.rm_prototype_v1.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_roadmapFragment3"
+            app:destination="@id/roadmapFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_achievementsFragment"
+            app:destination="@id/achievementsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/roadmapFragment"
+        android:name="nl.daanb.rm_prototype_v1.RoadmapFragment"
+        android:label="fragment_roadmap"
+        tools:layout="@layout/fragment_roadmap" >
+        <action
+            android:id="@+id/action_roadmapFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_roadmapFragment_to_achievementsFragment"
+            app:destination="@id/achievementsFragment" />
+        <action
+            android:id="@+id/action_roadmapFragment_to_newRoadmapFragment"
+            app:destination="@id/newRoadmapFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/achievementsFragment"
+        android:name="nl.daanb.rm_prototype_v1.AchievementsFragment"
+        android:label="fragment_achievements"
+        tools:layout="@layout/fragment_achievements" >
+        <action
+            android:id="@+id/action_achievementsFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_achievementsFragment_to_roadmapFragment"
+            app:destination="@id/roadmapFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="nl.daanb.rm_prototype_v1.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/newRoadmapFragment"
+        android:name="nl.daanb.rm_prototype_v1.NewRoadmapFragment"
+        android:label="fragment_new_roadmap"
+        tools:layout="@layout/fragment_new_roadmap" >
+        <action
+            android:id="@+id/action_newRoadmapFragment_to_roadmapFragment"
+            app:destination="@id/roadmapFragment" />
+    </fragment>
+</navigation>

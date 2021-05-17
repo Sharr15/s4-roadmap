@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/page_roadmaps"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_map_24"
+        android:title="Roadmaps"/>
+    <item
+        android:id="@+id/page_home"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home"/>
+     <item
+        android:id="@+id/page_achievements"
+        android:enabled="true"
+        android:icon="@drawable/trophy"
+        android:title="Achievements" />
+</menu>
